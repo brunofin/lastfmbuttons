@@ -1,0 +1,4 @@
+Version='0.2'
+Authors=['Bruno Finger <bruno.finger12@gmail.com>']
+Name='Last.fm Buttons'
+Description='Adds Last.fm Love and Ban buttons to Exaile.\n\nWhen this plugin is enabled, it will open\na web browser to the user authenticate with Last.fm.\n\nAfter the authentication is made on their website,\nyou\'ll need to RESTART Exaile.'

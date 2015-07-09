@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 2.12 -->
+  <!-- interface-naming-policy toplevel-contextual -->
+  <object class="GtkWindow" id="prefs_window">
+    <child>
+      <object class="GtkVBox" id="preferences_pane">
+        <property name="visible">True</property>
+        <property name="border_width">3</property>
+        <child>
+          <object class="GtkLabel" id="plugin/lastfmbuttons/name">
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">When this plugin is enabled, it will open
+a web browser to the user authenticate with Last.fm.
+
+After the authentication is made on their website,
+you'll need to restart Exaile.</property>
+          </object>
+          <packing>
+            <property name="position">0</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
